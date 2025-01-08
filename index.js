@@ -1,4 +1,3 @@
-// index.js
 const getBrowserInfo = () => {
     const { userAgent } = navigator;
     let browser = "Unknown";

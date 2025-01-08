@@ -18,7 +18,7 @@
 
 ## Installation
 
-Install the package via npm:
+To install `browser-insights`, use npm:
 
 ```bash
 npm install browser-insights
@@ -88,6 +88,29 @@ Returns network-related information (if supported by the browser):
 Returns the current page's URL and the referrer:
 - `current`: Current page URL.
 - `referrer`: Referring page URL.
+
+---
+
+## Browser Insights CDN
+
+You can use **Browser Insights** directly via a CDN. Include the following `<script>` tag in your HTML:
+
+### Using jsDelivr:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/browser-insights@1.0.0/browser-insights.min.js"></script>
+or
+<script src="https://unpkg.com/browser-insights@1.0.0/browser-insights.min.js"></script>
+```
+
+### Once included, you can use the library like this:
+
+```javascript
+(async () => {
+  const data = await browserInsights.getAll();
+  console.log(data);
+})();
+```
 
 ---
 

@@ -2,27 +2,34 @@
     "name": "browser-insights",
     "version": "1.0.0",
     "description": "A lightweight package to capture client-side browser, OS, screen, and network information for analytics or debugging.",
-    "main": "index.js",
+    "main": "browser-insights.min.js",
     "scripts": {
-      "test": "echo \"No tests yet\" && exit 0"
+        "test": "echo \"No tests yet\" && exit 0",
+        "build": "node minify.js"
     },
     "keywords": [
-      "browser-info",
-      "client-insights",
-      "user-environment",
-      "analytics",
-      "debugging",
-      "client-side"
+        "browser-info",
+        "client-insights",
+        "user-environment",
+        "analytics",
+        "debugging",
+        "client-side"
     ],
     "author": "Govinder Singh",
     "license": "MIT",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/govindersingh/browser-insights.git"
+        "type": "git",
+        "url": "https://github.com/govindersingh/browser-insights.git"
     },
     "bugs": {
-      "url": "https://github.com/govindersingh/browser-insights/issues"
+        "url": "https://github.com/govindersingh/browser-insights/issues"
     },
-    "homepage": "https://github.com/govindersingh/browser-insights#readme"
-  }
-  
+    "homepage": "https://github.com/govindersingh/browser-insights#readme",
+    "devDependencies": {
+        "terser": "^5.37.0"
+    },
+    "files": [
+        "index.js",
+        "browser-insights.min.js"
+    ]
+}
