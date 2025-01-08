@@ -98,9 +98,9 @@ You can use **Browser Insights** directly via a CDN. Include the following `<scr
 ### Using jsDelivr:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/browser-insights@1.1.1/browser-insights.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/browser-insights@1.1.4/browser-insights.min.js"></script>
 or
-<script src="https://unpkg.com/browser-insights@1.1.1/browser-insights.min.js"></script>
+<script src="https://unpkg.com/browser-insights@1.1.4/browser-insights.min.js"></script>
 ```
 
 ### Once included, you can use the library like this:
