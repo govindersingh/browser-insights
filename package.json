@@ -1,6 +1,6 @@
 {
     "name": "browser-insights",
-    "version": "1.1.4",
+    "version": "1.2.0",
     "description": "A lightweight package to capture client-side browser, OS, screen, and network information for analytics or debugging.",
     "main": "src/index.js",
     "scripts": {
